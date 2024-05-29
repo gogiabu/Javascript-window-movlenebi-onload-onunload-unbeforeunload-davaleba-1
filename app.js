@@ -3,6 +3,6 @@ window.onload = function() {
 }
 
  
-window.onbeforeunload = function() {
+window.onunload = function() {
     console.log("თქვენ გადადიხართ სხვა გვერდზე")
 }
